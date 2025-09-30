@@ -1281,3 +1281,33 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+/* GitHub Section */
+.github.section {
+  padding: 60px 0;
+}
+
+.github .section-inner {
+  background-color: var(--surface-color);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.github-graph {
+  margin-bottom: 30px;
+  overflow-x: auto; /* Evita que el gráfico se desborde en pantallas pequeñas */
+}
+
+.github-graph .js-calendar-graph-svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.ghfeed {
+  height: auto; /* en vez de forzar 500px */
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
