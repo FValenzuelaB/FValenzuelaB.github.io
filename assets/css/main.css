@@ -821,6 +821,10 @@ section,
 }
 
 .portfolio .portfolio-content {
+  width: 100%;
+  height: 250px;   /* puedes ajustar la altura */
+  object-fit: cover;
+  border-radius: 8px; /* opcional, para esquinas redondeadas */
   position: relative;
   overflow: hidden;
 }
@@ -830,6 +834,10 @@ section,
 }
 
 .portfolio .portfolio-content .portfolio-info {
+  width: 100%;
+  height: 250px;   /* puedes ajustar la altura */
+  object-fit: cover;
+  border-radius: 8px; /* opcional, para esquinas redondeadas */
   opacity: 0;
   position: absolute;
   inset: 0;
